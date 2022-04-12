@@ -5,13 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
     <title>Document</title>
 </head>
 <body>
     <div id="image-carousel">
+        <button id="prev" class="carousel-btn">&lt;</button>
+        <button id="next" class="carousel-btn">&gt;</button>
         <ul>
-            <li class="slide">
-                
+            <li class="slide " data-image-index='1' >
+                <img src="images/house-1.jpg"  alt="beautiful house">
+            </li>
+            <li class="slide" data-image-index='2'>
+                <img src="images/house-2.jpg" alt="beautiful house">
+            </li>
+            <li class="slide" data-image-index='3'>
+                <img src="images/house-3.jpg" alt="beautiful house">
+            </li>
+            <li class="slide active" data-image-index='4'>
+                <img src="images/house-4.jpg" alt="beautiful house">
+            </li>
+            <li class="slide" data-image-index='5'>
+                <img src="images/house-5.jpg" alt="beautiful house">
+            </li>
+            <li class="slide" data-image-index='6'>
+                <img src="images/house-6.jpg" alt="beautiful house">
+            </li>
+            <li class="slide" data-image-index='7'>
+                <img src="images/house-7.jpg" alt="beautiful house">
             </li>
         </ul>
     </div>
